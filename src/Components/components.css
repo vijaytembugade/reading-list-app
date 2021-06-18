@@ -1,0 +1,88 @@
+h2 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.container {
+  text-align: center;
+  background-color: #afd275;
+  padding: 0.6rem 1rem;
+  margin: 1rem;
+  border-radius: 10px;
+  box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+    -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+}
+input {
+  display: inline-block;
+  max-width: 60%;
+  width: 60%;
+  height: 1.6rem;
+}
+.bookInput {
+  display: block;
+  padding: 1rem 1rem;
+}
+
+.bookInput > input{
+    height: 2rem;
+    font-size: 18px;
+    font-family: inherit;
+}
+.bookButton {
+  color: rgb(255, 255, 255);
+  background-color: rgb(69, 160, 16);
+  padding: 0.3rem 0.3rem;
+  border-radius: 0.3rem;
+  position: relative;
+  margin: 1rem;
+  font-size: larger;
+}
+
+.bookList {
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline;
+}
+
+.bookTitle {
+  display: inline;
+  padding: 0 2rem 0 0;
+  font-size: large;
+  font-weight: bold;
+  font-family: serif;
+  position: relative;
+  left: 25px
+}
+
+.deleteButton {
+  color: aqua;
+  background-color: rgb(211, 108, 108);
+  border-radius: 0.3rem;
+  position: relative;
+  right: 25px;
+  float: right;
+
+}
+
+.deleteImg {
+  width: 25px;
+  height: 25px;
+}
+hr {
+  margin: 1rem;
+}
+
+@media only screen and (max-width: 800px) {
+  .container {
+    height: 80%;
+  }
+
+  body {
+    margin: 0% 0%;
+  }
+  .bookButton {
+    color: rgb(255, 255, 255);
+    background-color: rgb(69, 160, 16);
+    padding: 0.2rem 0.2rem;
+    border-radius: 0.5rem;
+    margin: 0.5rem;
+  }
+}
